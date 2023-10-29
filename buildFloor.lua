@@ -9,7 +9,6 @@ for i = 0, length do
     for x = 0, length do
         turtle.placeDown()
         turtle.forward()
-        turtle.forward()
     end
     if i % 2 == 0 then
         turtle.turnLeft()
