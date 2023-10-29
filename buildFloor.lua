@@ -8,15 +8,16 @@ turtle.turnRight()
 for i = 0, length do
     for x = 0, length do
         turtle.placeDown()
-        TurtleNav.move("forward")
+        turtle.forward()
+        turtle.forward()
     end
     if i % 2 = 0 then
         turtle.turnLeft()
-        TurtleNav.move("forward")
+        turtle.forward()
         turtle.turnLeft()
     else
         turtle.turnRight()
-        TurtleName.move("forward")
+        turtle.forward()
         turtle.turnRight()
     end
     
