@@ -11,7 +11,7 @@ for i = 0, length do
         turtle.forward()
         turtle.forward()
     end
-    if i % 2 = 0 then
+    if i % 2 == 0 then
         turtle.turnLeft()
         turtle.forward()
         turtle.turnLeft()
@@ -20,7 +20,7 @@ for i = 0, length do
         turtle.forward()
         turtle.turnRight()
     end
-    
+end 
     
 
     
