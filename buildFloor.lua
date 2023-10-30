@@ -2,7 +2,7 @@
 -- os.loadAPI("TurtleNav.lua")
 width = 25
 length = 25
-select(1)
+turtle.select(1)
 
 function placeBlock()
     if turtle.getItemCount() == 0 then
