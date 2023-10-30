@@ -6,7 +6,7 @@ select(1)
 
 function placeBlock()
     if turtle.getItemCount() == 0 then
-        select(getSelectedSlot() + 1)
+        turtle.select(turtle.getSelectedSlot() + 1)
     end
     turtle.placeDown()
 end
