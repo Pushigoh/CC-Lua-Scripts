@@ -1,5 +1,5 @@
 -- buildFloor.lua
-os.loadAPI("TurtleNav.lua")
+-- os.loadAPI("TurtleNav.lua")
 width = 10
 length = 10
 
@@ -14,10 +14,12 @@ for i = 0, length do
         turtle.turnLeft()
         turtle.forward()
         turtle.turnLeft()
+        turtle.forward()
     else
         turtle.turnRight()
         turtle.forward()
         turtle.turnRight()
+        turtle.forward()
     end
 end 
     
