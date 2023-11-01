@@ -14,7 +14,7 @@ end
 
 turtle.turnRight()
 for i = 0, length do
-    for x = 0, length do
+    for x = 0, width do
         placeBlock()
         turtle.forward()
     end
