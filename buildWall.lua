@@ -10,7 +10,7 @@ function placeBlock()
 end
 
 function turnAround()
-    turtle.Up()
+    turtle.up()
     turtle.turnLeft()
     turtle.turnLeft()
     placeBlock()
