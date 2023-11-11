@@ -24,8 +24,8 @@ end
 
 function main()
     start()
-    for i = 0, height do
-        for x = 0, length do
+    for i = 1, height do
+        for x = 1, length do
             turtle.forward()
             placeBlock()
         end
