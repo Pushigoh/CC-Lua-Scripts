@@ -2,6 +2,10 @@ height = 10
 length = 10
 turtle.select(1)
 
+function start()
+    turtle.up()
+end
+
 function placeBlock()
     if turtle.getItemCount() == 0 then
         turtle.select(turtle.getSelectedSlot() + 1)
@@ -17,6 +21,7 @@ function turnAround()
 end
 
 function main()
+    start()
     for i = 0, height do
         for x = 0, length do
             turtle.forward()
