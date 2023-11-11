@@ -12,7 +12,7 @@ end
 
 function start()
     turtle.up()
-    turtle.placeBlock()
+    placeBlock()
 end
 
 function turnAround()
