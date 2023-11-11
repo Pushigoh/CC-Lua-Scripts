@@ -1,7 +1,7 @@
 -- buildFloor.lua
 -- os.loadAPI("TurtleNav.lua")
-width = 25
-length = 25
+width = 10
+length = 10
 turtle.select(1)
 
 function placeBlock()
@@ -15,8 +15,8 @@ end
 turtle.turnRight()
 for i = 0, length do
     for x = 0, width do
-        placeBlock()
         turtle.forward()
+        placeBlock()
     end
     if i % 2 == 0 then
         turtle.turnLeft()
