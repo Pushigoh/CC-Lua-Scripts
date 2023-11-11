@@ -13,12 +13,12 @@ end
 
 
 turtle.turnRight()
-for i = 0, length do
-    for x = 0, width do
+for i = 1, length do
+    for x = 1, width do
         turtle.forward()
         placeBlock()
     end
-    if i % 2 == 0 then
+    if i % 2 ~= 0 then
         turtle.turnLeft()
         turtle.forward()
         turtle.turnLeft()
