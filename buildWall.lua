@@ -1,16 +1,18 @@
-height = 10
-length = 10
+height = 5
+length = 5
 turtle.select(1)
 
-function start()
-    turtle.up()
-end
 
 function placeBlock()
     if turtle.getItemCount() == 0 then
         turtle.select(turtle.getSelectedSlot() + 1)
     end
     turtle.placeDown()
+end
+
+function start()
+    turtle.up()
+    turtle.placeBlock()
 end
 
 function turnAround()
