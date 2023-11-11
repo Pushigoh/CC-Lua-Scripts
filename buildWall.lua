@@ -22,7 +22,9 @@ function main()
             turtle.forward()
             placeBlock()
         end
-        turnAround()
+        if i ~= height then
+            turnAround()
+        end
     end
 end 
 main()
